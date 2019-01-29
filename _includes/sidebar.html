@@ -28,6 +28,17 @@
 
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+
+      {% for category in site.tags %}
+      <h3>{{ category[0] }}</h3>
+
+      <ul>
+            {% for post in category[1] %}
+    
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+      </ul>
+      {% endfor %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
