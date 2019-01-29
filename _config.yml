@@ -17,7 +17,7 @@ title:            Mxq
 tagline:          'A Jekyll theme'  
 description:      'A personal blog of Manxiaqu.'
 url:              https://github.com/manxiaqu/manxiaqu.github.io
-baseurl:          /
+baseurl:          https://manxiaqu.github.io/
 
 author:
   name:           'Manxiaqu'
