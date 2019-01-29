@@ -1,0 +1,32 @@
+plugins:
+  - jekyll-paginate
+  - redcarpet
+  - jekyll-gist
+  - pygments.rb
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Mxq
+tagline:          'A Jekyll theme'  
+description:      'A personal blog of Manxiaqu.'
+url:              https://github.com/manxiaqu/manxiaqu.github.io
+baseurl:          /
+
+author:
+  name:           'Manxiaqu'
+  url:            https://github.com/manxiaqu/manxiaqu.github.io
+
+paginate:         5
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/manxiaqu/manxiaqu.github.io
