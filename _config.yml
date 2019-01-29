@@ -3,9 +3,10 @@ plugins:
   - redcarpet
   - jekyll-gist
   - pygments.rb
+  - kramdown
 
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
